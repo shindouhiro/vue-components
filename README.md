@@ -89,6 +89,7 @@ yarn build
 ```javascript
 npm login
 npm publish
+npm unpublish vue-container@0.0.1 --force #删除后同样的包名24小时后方可上传
 ```
 
 + 发布完项目下载使用
