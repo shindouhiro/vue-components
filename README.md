@@ -80,7 +80,11 @@ export default defineConfig({
   }
 }
 ```
-
++ 打包
+  
+```
+yarn build
+```
 - 发布到npm
 ```javascript
 npm login
