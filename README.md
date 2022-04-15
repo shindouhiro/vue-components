@@ -111,7 +111,9 @@ app.use(container)
 
 ### 第二种
 + App.vue
-import { Container } from 'vue-container'
 ```
 <Container msg="hello world">
+<script setup>
+import { Container } from 'vue-container'
+</script>
 ```
