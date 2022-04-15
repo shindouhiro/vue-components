@@ -90,3 +90,28 @@ yarn build
 npm login
 npm publish
 ```
+
++ 发布完项目下载使用
+  
+```
+yarn add vue-container
+```
+
+### 第一种
++ main.js
+```
+import contaienr from 'vue-container'
+app.use(container)
+````
+
++ App.vue
+```
+<Container msg="hello world">
+```
+
+### 第二种
++ App.vue
+import { Container } from 'vue-container'
+```
+<Container msg="hello world">
+```
